@@ -26,7 +26,7 @@ router.get('/', (req, res, next) => {
 //  GET the Book Details page in order to add a new Book
 router.get('/details', async (req, res, next) => {
   try{
-        res.render('books/details',{title: 'Add a Book'})
+        res.render('books/details',{title: 'Add a Book', books: ''})
 } catch(err){
     console.error(err);
 }
