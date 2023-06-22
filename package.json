@@ -6,7 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.2",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.5",
@@ -25,8 +25,8 @@
     "popper.js": "^1.16.1"
   },
   "engines": {
-    "node": "^10.15.0",
-    "npm": "^6.0.0"
+    "node": "^18.00.0",
+    "npm": "^8.0.0"
   },
   "description": "## Welcome to the MidTerm Project - the Favourite Book List App",
   "main": "server.js",
@@ -57,5 +57,5 @@
   "bugs": {
     "url": ""
   },
-  "homepage": ""
+  "homepage": "https://github.com/noorhatami/COMP229-Midterm-300847575/blob/main/README.md"
 }
